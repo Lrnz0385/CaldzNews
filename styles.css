@@ -1,0 +1,305 @@
+body{
+    background-color: khaki;
+    position: relative;
+    width: 1600px;
+    height: 3200px;
+}
+
+/*---Header---*/
+.articleHeader{
+    width: 100%;
+    height: 300px;
+}
+
+#distributor{
+    display: inline-block;
+    position: absolute;
+    left: 8%;
+    font-size: 85px;
+    font-family: Big Shoulders Stencil
+}
+
+#distributor_logo{
+    display: inline-block;
+    height: 225px;
+    width: 300px;
+    position: absolute;
+    left: 37%;
+    top: 24px;
+    z-index: 10;
+}
+
+#theme{
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    font-size: 85px;
+    font-family: Big Shoulders Stencil
+}
+
+#line1_1{
+    position: absolute;
+    width: 100%;
+    border: 3px solid black;
+    top: 184px;
+    border-radius: 4px;
+}
+
+#line2_1{
+    position: absolute;
+    width: 100%;
+    border: 2px solid white;
+    top: 192px;
+    border-radius: 4px;
+}
+
+#line2_2{
+    position: absolute;
+    width: 100%;
+    border: 2px solid white;
+    top: 236px;
+    border-radius: 4px;
+}
+
+#line1_2{
+    position: absolute;
+    width: 100%;
+    border: 3px solid black;
+    top: 242px;
+    border-radius: 4px;
+}
+
+#header_text1{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 34px;
+    left: 15%;
+    top: 162px;
+}
+
+#header_text2{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 34px;
+    right: 15%;
+    top: 162px;
+}
+
+/*---Main---*/
+.articleBody{
+    position: relative;
+    display: inline-block;
+    width: 1600px;
+    height: 1920px;
+}
+
+/*---Main---*/
+.main{
+    position: absolute;
+    display: inline-block;
+    width: 1175px;
+    height: 1920px;
+    right: 0%;
+}
+
+#line3{
+    position: absolute;
+    width: 100%;
+    border: 3px solid black;
+    top: 52.5%;
+    border-radius: 4px;
+}
+
+/*---Headline---*/
+#headline{
+    position: absolute;
+    display: block;
+    width: 1175px;
+    height: 1050px;
+}
+
+#headlineTitle{
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 72px;
+}
+
+#tryhardsPic{
+    margin-top: -20px;
+    width: 64%;
+    border: 2px solid white;
+    border-radius: 8px;
+    float: left;
+}
+
+#headlineText{
+    margin-top: -20px;
+    text-align: justify;
+    font-size: 30px;
+    padding: 15px, 0px, 0px, 0px;
+}
+
+/*---General News---*/
+#generalNews{
+    margin-top: 1000px;
+    position: absolute;
+    display: block;
+    width: 1175px;
+    height: 920px;
+}
+
+#news1{
+    position: absolute;
+    display: inline-block;
+    width: 380px;
+    height: 920px;
+    left: 10px;
+    
+}
+
+#news1Img{
+    position: absolute;
+    width: 85%;
+    border-radius: 8px;
+    left: 8%;
+    top: 70%;
+}
+
+#news1Title{
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 58%;
+    font-size: 28px;
+}
+
+#news1Text{
+    position: absolute;
+    text-align: justify;
+    top: 1%;
+    font-size: 28px;
+}
+
+#news2{
+    position: absolute;
+    display: inline-block;
+    width: 380px;
+    height: 920px;
+    left: 398px;
+    
+}
+
+#news2Img{
+    position: absolute;
+    width: 75%;
+    border-radius: 8px;
+    left: 13%;
+    top: 4%;
+}
+
+#news2Title{
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    font-size: 28px;
+}
+
+#news2Text{
+    position: absolute;
+    text-align: justify;
+    top: 54%;
+    font-size: 28px;
+}
+
+
+#news3{
+    position: absolute;
+    display: inline-block;
+    width: 380px;
+    height: 920px;
+    left: 785px;
+    
+}
+
+#news3Img{
+    position: absolute;
+    width: 75%;
+    border-radius: 8px;
+    left: 13%;
+    top: 16%;
+}
+
+#news3Title{
+    position: absolute;
+    text-align: center;
+    left: 6%;
+    top: 5%;
+    font-size: 28px;
+}
+
+#news3Text{
+    position: absolute;
+    text-align: justify;
+    top: 48%;
+    font-size: 28px;
+}
+
+
+/*---Hoyoverse Section---*/
+.hoyoverse_Section{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 1920px;
+    border: 6px solid black;
+    border-radius: 10px;
+    left: 0%;
+}
+
+#hy_header{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+#anby{
+    position: absolute;
+    width: 360px;
+    height: 580px;
+    top:120px;
+    left: 4.1%;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+#tribbie{
+    position: absolute;
+    width: 360px;
+    height: 580px;
+    top: 720px;
+    left: 4.1%;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+#mizuki{
+    position: absolute;
+    width: 360px;
+    height: 580px;
+    top: 1320px;
+    left: 4.1%;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+/*---Footer---*/
+#lineFooter{
+    position: absolute;
+    width: 100%;
+    border: 3px solid black;
+    top: 70%;
+    border-radius: 4px;
+}
